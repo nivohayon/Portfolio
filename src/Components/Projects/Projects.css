@@ -1,0 +1,39 @@
+#Projects {
+    margin-top: 3em;
+}
+#title {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.projName {
+    font-weight: 800;
+}
+.projDesc {
+    font-weight: 100;
+}
+#link {
+    display: flex;
+    justify-content: center;
+}
+.linkitem {
+    cursor: pointer;
+}
+.projectStackItem {
+    margin-top: 0.5em;
+    font-size: 0.7em;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+#github {
+    font-size: 1.2em;
+}
+#external {
+    font-size: 1.2em;
+}

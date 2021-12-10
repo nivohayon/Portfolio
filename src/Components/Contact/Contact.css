@@ -1,0 +1,50 @@
+#Contact {
+    margin-top: 3em;
+    width: 50%;
+    text-align: center;
+}
+.contactbtn {
+    display: block;
+    cursor: pointer;
+    padding: 0.8em 1.4em;
+    font-weight: 500;
+    font-size: 1em;
+    width: fit-content;
+    margin: auto;
+    text-transform: lowercase;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .contactbtn--outline {
+    color: var(--clr-primary);
+    border: 2px solid var(--clr-primary);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .contactbtn--outline:hover,
+  .contactbtn--outline:focus {
+    color: var(--clr-bg);
+  }
+  
+  .contactbtn--outline:before {
+    content: '';
+    position: absolute;
+    background-color: var(--clr-primary);
+    right: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: right 0.2s ease-in-out;
+  }
+  
+  .contactbtn--outline:hover:before,
+  .contactbtn--outline:focus:before {
+    right: 0;
+  }
+  .center {
+      display: flex;
+      align-items: center;
+  }

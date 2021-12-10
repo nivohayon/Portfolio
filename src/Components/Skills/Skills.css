@@ -1,0 +1,22 @@
+#Skills {
+    margin-top: 3em;
+}
+#SkillItem {
+    color: var(--clr-bw);
+    border: 1px solid var(--clr-bw);
+    padding: 0.5em;
+    width: fit-content;
+    margin: 0.3em;
+    display: flex;
+    transform: translateY(0%);
+}
+#SkillItem:hover {
+    background-color: var(--clr-bw);
+    color: var(--clr-wb);
+    transform: translateY(-15%);
+}
+#SkillRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import '../Navbar/Navbar.css'
 import {Col, Container, Row, } from 'react-bootstrap'
 import ThemeContext from '../../Context/ThemeContext'
-import { header } from '../../Portfolio.js'
+import { header } from '../../PortfolioData.js'
 
 function Navbar() {
 
@@ -17,18 +17,18 @@ function Navbar() {
         <Container id="Navbar">
             <Row>
                 <Col xs sm="4" md="8" lg="8">
-                    <h3 id="Logo">NO.</h3>
+                    <h3><a title="Niv Ohayon" id="Logo" href={homepage}>{title}</a></h3>
                 </Col>
                 <Col className="NavCol" xs sm="2" md="1" lg="1">
-                    <a href={homepage} className="link">Projects</a>
+                    <a href="#Projects" className="link">Projects</a>
                 </Col>
                 <Col className="NavCol" xs sm="2" md="1" lg="1">
-                    <a href={homepage} className="link">Skills</a>
+                    <a href="#Skills" className="link">Skills</a>
                 </Col>
                 <Col className="NavCol" xs sm="2" md="1" lg="1">
-                    <a href={homepage} className="link">Contact</a>
+                    <a href="#Contact" className="link">Contact</a>
                 </Col>
-                <Col xs sm="2" md="1" lg="1">
+                <Col id="bounce" className="NavCol" xs sm="2" md="1" lg="1">
                     <Container id="ToggleTheme" onClick={toggleTheme} >
                         {
                             theme.color === "dark" ?

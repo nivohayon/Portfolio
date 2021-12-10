@@ -1,10 +1,13 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
+import "../Footer/Footer.css"
+
 
 function Footer() {
     return (
-        <div>
-            Footer
-        </div>
+        <Container id="Footer">
+            <h5 id="createdBy" className="link">Created by Niv Ohayon</h5>
+        </Container>
     )
 }
 

@@ -13,7 +13,11 @@ function About() {
       )}
 
       {role && <h2 className='aboutRole'>A {role}.</h2>}
-      <p className='aboutDesc'>{description && description}</p>
+      <div id="description">
+        {description && description.split('\n').map((line, index)=>
+        <p key={index} className='aboutDesc'>{line}</p>
+        )}
+      </div>
 
       <div className='aboutContact center'>
         {resume && (

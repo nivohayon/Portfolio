@@ -8,8 +8,7 @@ const header = {
     // all the properties are optional - can be left empty or deleted
     name: 'Niv Ohayon',
     role: 'Software Engineer Graduate',
-    description:
-      'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    description: "This website contains my email, resume, and links to my projects.\nthis website is developed using React and CSS.",
     resume: 'https://drive.google.com/file/d/1vdekGOQtvSVNGx3UbppUTn7W3rz2RPYp/view?usp=sharing',
     social: {
       linkedin: 'https://www.linkedin.com/in/nivohayon/',

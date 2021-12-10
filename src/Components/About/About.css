@@ -18,8 +18,8 @@
     max-width: 600px;
   }
   
-  .aboutDesc,
-  .aboutContact {
+  #description, .aboutContact{
+    text-align: center;
     margin-top: 2.4em;
   }
   

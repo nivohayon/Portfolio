@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import "../Skills/Skills.css"
 import { skills } from '../../PortfolioData'
 
@@ -12,11 +12,11 @@ function Skills() {
                     {
                         skills.length &&
                         skills.map((skill)=>
-                        <div key={skill} className='HoverDiv'>
+                        <Col key={skill} id='HoverDiv'>
                             <div id="SkillItem" className="btn">
                                 {skill}
                             </div>
-                        </div>
+                        </Col>
                         )
                     }
                 </Row>

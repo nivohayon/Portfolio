@@ -20,7 +20,9 @@
 #HoverDiv {
     width: fit-content;
     padding: 0;
-    display: contents;
+    display: flex;
+    flex: inherit;
+    
 }
 #SkillRow {
     display: flex;

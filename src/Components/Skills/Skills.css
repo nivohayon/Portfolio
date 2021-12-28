@@ -9,11 +9,17 @@
     margin: 0.3em;
     display: flex;
     transform: translateY(0%);
+    transition: all 0.5s ease;
+    position: relative;
 }
-#SkillItem:hover {
+.HoverDiv:hover #SkillItem {
     background-color: var(--clr-bw);
     color: var(--clr-wb);
     transform: translateY(-15%);
+}
+.HoverDiv {
+    width: fit-content;
+    padding: 0;
 }
 #SkillRow {
     display: flex;

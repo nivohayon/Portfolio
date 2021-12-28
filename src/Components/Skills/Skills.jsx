@@ -12,9 +12,11 @@ function Skills() {
                     {
                         skills.length &&
                         skills.map((skill)=>
-                            <p key={skill} id="SkillItem" className="btn">
+                        <div key={skill} className='HoverDiv'>
+                            <div id="SkillItem" className="btn">
                                 {skill}
-                            </p>
+                            </div>
+                        </div>
                         )
                     }
                 </Row>
